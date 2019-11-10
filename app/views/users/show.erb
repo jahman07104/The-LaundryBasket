@@ -1,0 +1,7 @@
+<h1><%=@user.name%></h1>
+<h4>Baskets:</h4>
+<ul>
+  <%@user.baskets.each do |basket|%>
+  <li><%=basket.name%></li>
+  <%end%>
+</ul>
